@@ -26,7 +26,7 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> GetstringById(int id)
         {
-            return "value" + id;
+            return "value " + id;
         }
 
         // POST api/simple
